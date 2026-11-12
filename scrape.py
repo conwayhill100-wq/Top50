@@ -39,6 +39,24 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (personal top-lists viewer)"}
 def clean(t):
     return re.sub(r"\s+", " ", t).strip()
 
+def nat_code(cell):
+    """Nationality is often a flag image, so the cell text can be empty."""
+    t = clean(cell.get_text())
+    if t:
+        return t
+    for el in cell.find_all(True):
+        for attr in ("alt", "title", "aria-label", "data-country", "data-nat"):
+            v = (el.get(attr) or "").strip()
+            m = re.search(r"\b([A-Z]{3})\b", v)
+            if m:
+                return m.group(1)
+        for attr in ("src", "data-src", "srcset"):
+            m = re.search(r"/([A-Za-z]{3})\.(?:svg|png|gif|webp)", el.get(attr) or "")
+            if m:
+                return m.group(1).upper()
+    m = re.search(r"\b([A-Z]{3})\b", str(cell))
+    return m.group(1) if m else ""
+
 def fetch(path, gender):
     url = (f"https://worldathletics.org/records/toplists/{path}/outdoor/{gender}/senior/{YEAR}"
            f"?regionType=world&timing=electronic&windReading={WIND}&page=1&bestResultsOnly=true")
@@ -61,7 +79,10 @@ def fetch(path, gender):
         idx["date"] = dates[-1]
     rows = []
     for tr in table.find_all("tr"):
-        tds = [clean(td.get_text()) for td in tr.find_all("td")]
+        cells = tr.find_all("td")
+        tds = [clean(td.get_text()) for td in cells]
+        if idx["nat"] is not None and idx["nat"] < len(cells):
+            tds[idx["nat"]] = nat_code(cells[idx["nat"]])
         if len(tds) < len(heads) - 1 or not tds:
             continue
         get = lambda k: tds[idx[k]] if idx[k] is not None and idx[k] < len(tds) else ""
