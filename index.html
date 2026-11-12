@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 50 Marks</title>
+<style>
+  :root{--bg:#f2f4f6;--ink:#15202b;--mute:#5d6b78;--blue:#1d4f91;--line:#d5dbe1;--card:#fff}
+  @media (prefers-color-scheme:dark){:root{--bg:#10161d;--ink:#e8edf2;--mute:#92a1af;--blue:#6ea3e6;--line:#2a3541;--card:#18212b}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,"Avenir Next",system-ui,sans-serif}
+  header{padding:20px 16px 8px;max-width:1000px;margin:auto}
+  h1{margin:0;font-size:28px;letter-spacing:-.5px}
+  #stamp{color:var(--mute);font-size:14px;margin-top:2px}
+  .bar{position:sticky;top:0;background:var(--bg);padding:10px 16px;border-bottom:1px solid var(--line);max-width:1000px;margin:auto;z-index:2}
+  .seg{display:inline-flex;border:1.5px solid var(--blue);border-radius:10px;overflow:hidden;margin-bottom:10px}
+  .seg button{border:0;background:none;color:var(--blue);padding:9px 22px;font:600 16px inherit;font-family:inherit}
+  .seg button.on{background:var(--blue);color:var(--bg)}
+  .events{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+  .events button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:8px 14px;font:15px inherit;font-family:inherit}
+  .events button.on{border-color:var(--blue);background:var(--blue);color:var(--bg)}
+  main{max-width:1000px;margin:auto;padding:12px 16px 40px}
+  .wrap{overflow-x:auto;background:var(--card);border-radius:12px;border:1px solid var(--line)}
+  table{border-collapse:collapse;width:100%;min-width:640px}
+  th,td{padding:9px 10px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+  th{font-size:13px;color:var(--mute);font-weight:600;position:sticky;top:0;background:var(--card)}
+  td.n,td.m{font-variant-numeric:tabular-nums}
+  td.m{font-weight:700}
+  tr:last-child td{border-bottom:0}
+  .msg{padding:30px 10px;color:var(--mute);text-align:center}
+</style>
+</head>
+<body>
+<header><h1 id="title">Top 50 Marks</h1><div id="stamp">Loading…</div></header>
+<div class="bar">
+  <div class="seg"><button id="bm">Men</button><button id="bw">Women</button></div>
+  <div class="events" id="events"></div>
+</div>
+<main><div class="wrap"><table><thead><tr>
+  <th>#</th><th>Mark</th><th>Wind</th><th>Athlete</th><th>Nat</th><th>Venue</th><th>Date</th>
+</tr></thead><tbody id="rows"></tbody></table></div></main>
+<script>
+let D=null, gender="men", event=null;
+const $=id=>document.getElementById(id);
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function draw(){
+  $("bm").className=gender==="men"?"on":"";$("bw").className=gender==="women"?"on":"";
+  const evs=D.events.filter(e=>e.genders.includes(gender));
+  if(!evs.some(e=>e.name===event))event=evs[0].name;
+  $("events").innerHTML=evs.map(e=>`<button class="${e.name===event?"on":""}" data-e="${esc(e.name)}">${esc(e.name)}</button>`).join("");
+  $("title").textContent=`${event}, ${gender==="men"?"Men":"Women"} ${D.year}`;
+  const rows=D.results[gender+"|"+event]||[];
+  $("rows").innerHTML=rows.length?rows.map(r=>`<tr><td class="n">${r.rank}</td><td class="m">${esc(r.mark)}</td><td class="n">${esc(r.wind)||"–"}</td><td>${esc(r.athlete)}</td><td>${esc(r.nat)}</td><td>${esc(r.venue)}</td><td>${esc(r.date)}</td></tr>`).join(""):`<tr><td colspan="7" class="msg">No data for this event yet.</td></tr>`;
+}
+$("bm").onclick=()=>{gender="men";draw()};$("bw").onclick=()=>{gender="women";draw()};
+$("events").onclick=e=>{const b=e.target.closest("button");if(b){event=b.dataset.e;draw();scrollTo(0,0)}};
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{D=d;$("stamp").textContent="World Athletics top lists, updated "+d.updated;draw()})
+ .catch(()=>{$("stamp").textContent="No data yet. Run the update once (see setup steps)."});
+</script>
+</body>
+</html>
