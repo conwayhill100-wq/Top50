@@ -4777,13 +4777,22 @@
     "rank": 29,
     "mark": "2.27",
     "wind": "",
+    "athlete": "Matvey TYCHINKIN",
+    "nat": "RUS",
+    "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+    "date": "24 MAY 2026"
+   },
+   {
+    "rank": 30,
+    "mark": "2.27",
+    "wind": "",
     "athlete": "Mutaz Essa BARSHIM",
     "nat": "QAT",
     "venue": "Suhaim bin Hamad Stadium, Doha (QAT)",
     "date": "19 JUN 2026"
    },
    {
-    "rank": 30,
+    "rank": 31,
     "mark": "2.27",
     "wind": "",
     "athlete": "Joel CLARKE-KHAN",
@@ -4792,7 +4801,7 @@
     "date": "20 JUN 2026"
    },
    {
-    "rank": 31,
+    "rank": 32,
     "mark": "2.27",
     "wind": "",
     "athlete": "Ziang DONG",
@@ -4801,22 +4810,13 @@
     "date": "28 JUN 2026"
    },
    {
-    "rank": 32,
+    "rank": 33,
     "mark": "2.27",
     "wind": "",
     "athlete": "Edoardo STRONATI",
     "nat": "ITA",
     "venue": "Stadio Luigi Ridolfi, Firenze (ITA)",
     "date": "26 JUL 2026"
-   },
-   {
-    "rank": 33,
-    "mark": "2.26",
-    "wind": "",
-    "athlete": "Matvey TYCHINKIN",
-    "nat": "RUS",
-    "venue": "Ural GUFK, Chelyabinsk (RUS) (i)",
-    "date": "16 JAN 2026"
    },
    {
     "rank": 34,
@@ -7460,6 +7460,15 @@
    },
    {
     "rank": 26,
+    "mark": "16.93",
+    "wind": "+0.8",
+    "athlete": "Dmitriy CHIZHIKOV",
+    "nat": "RUS",
+    "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+    "date": "24 MAY 2026"
+   },
+   {
+    "rank": 27,
     "mark": "16.90",
     "wind": "-0.2",
     "athlete": "Rongjia ZHOU",
@@ -7468,7 +7477,7 @@
     "date": "19 MAY 2026"
    },
    {
-    "rank": 27,
+    "rank": 28,
     "mark": "16.85",
     "wind": "",
     "athlete": "Chengetayi David MAPAYA",
@@ -7477,7 +7486,7 @@
     "date": "06 FEB 2026"
    },
    {
-    "rank": 28,
+    "rank": 29,
     "mark": "16.83",
     "wind": "-0.6",
     "athlete": "Abdulla Aboobacker NARANGOLINTEVIDA",
@@ -7486,22 +7495,13 @@
     "date": "14 MAR 2026"
    },
    {
-    "rank": 29,
+    "rank": 30,
     "mark": "16.83",
     "wind": "+1.6",
     "athlete": "Theophilus MUDZENGERERE",
     "nat": "ZIM",
     "venue": "Percy Beard Track, Gainesville, FL (USA)",
     "date": "18 APR 2026"
-   },
-   {
-    "rank": 30,
-    "mark": "16.81",
-    "wind": "",
-    "athlete": "Dmitriy CHIZHIKOV",
-    "nat": "RUS",
-    "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-    "date": "02 MAR 2026"
    },
    {
     "rank": 31,
@@ -9232,6 +9232,15 @@
    },
    {
     "rank": 22,
+    "mark": "67.13",
+    "wind": "",
+    "athlete": "Aleksey KHUDYAKOV",
+    "nat": "RUS",
+    "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+    "date": "23 MAY 2026"
+   },
+   {
+    "rank": 23,
     "mark": "67.00",
     "wind": "",
     "athlete": "Lukas WEI\u00dfHAIDINGER",
@@ -9240,7 +9249,7 @@
     "date": "09 MAY 2026"
    },
    {
-    "rank": 23,
+    "rank": 24,
     "mark": "66.60",
     "wind": "",
     "athlete": "Marcus GUSTAVESON",
@@ -9249,7 +9258,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 24,
+    "rank": 25,
     "mark": "66.51",
     "wind": "",
     "athlete": "Mauricio ORTEGA",
@@ -9258,7 +9267,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 25,
+    "rank": 26,
     "mark": "66.44",
     "wind": "",
     "athlete": "Ralford MULLINGS",
@@ -9267,7 +9276,7 @@
     "date": "23 AUG 2026"
    },
    {
-    "rank": 26,
+    "rank": 27,
     "mark": "66.39",
     "wind": "",
     "athlete": "Abuduaini TUERGONG",
@@ -9276,7 +9285,7 @@
     "date": "31 MAY 2026"
    },
    {
-    "rank": 27,
+    "rank": 28,
     "mark": "66.29",
     "wind": "",
     "athlete": "Ola STUNES ISENE",
@@ -9285,7 +9294,7 @@
     "date": "25 APR 2026"
    },
    {
-    "rank": 28,
+    "rank": 29,
     "mark": "66.17",
     "wind": "",
     "athlete": "Fedrick DACRES",
@@ -9294,7 +9303,7 @@
     "date": "27 JUN 2026"
    },
    {
-    "rank": 29,
+    "rank": 30,
     "mark": "65.95",
     "wind": "",
     "athlete": "Alin Alexandru FIRFIRIC\u0102",
@@ -9303,7 +9312,7 @@
     "date": "14 MAR 2026"
    },
    {
-    "rank": 30,
+    "rank": 31,
     "mark": "65.95",
     "wind": "",
     "athlete": "Diego CASAS",
@@ -9312,7 +9321,7 @@
     "date": "01 JUL 2026"
    },
    {
-    "rank": 31,
+    "rank": 32,
     "mark": "65.87",
     "wind": "",
     "athlete": "Shamar REID",
@@ -9321,7 +9330,7 @@
     "date": "16 MAY 2026"
    },
    {
-    "rank": 32,
+    "rank": 33,
     "mark": "65.75",
     "wind": "",
     "athlete": "Traves SMIKLE",
@@ -9330,7 +9339,7 @@
     "date": "02 APR 2026"
    },
    {
-    "rank": 33,
+    "rank": 34,
     "mark": "65.44",
     "wind": "",
     "athlete": "Emanuel SOUSA",
@@ -9339,7 +9348,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 34,
+    "rank": 35,
     "mark": "65.38",
     "wind": "",
     "athlete": "Masateru YUGAMI",
@@ -9348,7 +9357,7 @@
     "date": "26 APR 2026"
    },
    {
-    "rank": 35,
+    "rank": 36,
     "mark": "65.21",
     "wind": "",
     "athlete": "Mitch WEBER",
@@ -9357,7 +9366,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 36,
+    "rank": 37,
     "mark": "65.17",
     "wind": "",
     "athlete": "Racquil BRODERICK",
@@ -9366,7 +9375,7 @@
     "date": "19 JUL 2026"
    },
    {
-    "rank": 37,
+    "rank": 38,
     "mark": "65.14",
     "wind": "",
     "athlete": "Mika SOSNA",
@@ -9375,7 +9384,7 @@
     "date": "08 JUL 2026"
    },
    {
-    "rank": 38,
+    "rank": 39,
     "mark": "65.08",
     "wind": "",
     "athlete": "Legend BOYESEN",
@@ -9384,7 +9393,7 @@
     "date": "31 MAY 2026"
    },
    {
-    "rank": 39,
+    "rank": 40,
     "mark": "65.03",
     "wind": "",
     "athlete": "Dallin SHURTS",
@@ -9393,7 +9402,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 40,
+    "rank": 41,
     "mark": "64.77",
     "wind": "",
     "athlete": "Nicholas PERCY",
@@ -9402,7 +9411,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 41,
+    "rank": 42,
     "mark": "64.69",
     "wind": "",
     "athlete": "Lucien WANGBA",
@@ -9411,7 +9420,7 @@
     "date": "31 MAY 2026"
    },
    {
-    "rank": 42,
+    "rank": 43,
     "mark": "64.59",
     "wind": "",
     "athlete": "Martynas ALEKNA",
@@ -9420,7 +9429,7 @@
     "date": "17 JUN 2026"
    },
    {
-    "rank": 43,
+    "rank": 44,
     "mark": "64.50",
     "wind": "",
     "athlete": "Marek B\u00c1RTA",
@@ -9429,7 +9438,7 @@
     "date": "09 APR 2026"
    },
    {
-    "rank": 44,
+    "rank": 45,
     "mark": "64.47",
     "wind": "",
     "athlete": "Joseph WHITE",
@@ -9438,7 +9447,7 @@
     "date": "04 APR 2026"
    },
    {
-    "rank": 45,
+    "rank": 46,
     "mark": "64.44",
     "wind": "",
     "athlete": "Juan CAICEDO",
@@ -9447,7 +9456,7 @@
     "date": "01 AUG 2026"
    },
    {
-    "rank": 46,
+    "rank": 47,
     "mark": "64.34",
     "wind": "",
     "athlete": "Dimitrios PAVLIDIS",
@@ -9456,7 +9465,7 @@
     "date": "13 AUG 2026"
    },
    {
-    "rank": 47,
+    "rank": 48,
     "mark": "64.28",
     "wind": "",
     "athlete": "Jordan GUEHASEIM",
@@ -9465,22 +9474,13 @@
     "date": "20 JUN 2026"
    },
    {
-    "rank": 48,
+    "rank": 49,
     "mark": "64.24",
     "wind": "",
     "athlete": "Damian RODZIAK",
     "nat": "POL",
     "venue": "Gol\u0119cin Stadion, Poznan (POL)",
     "date": "03 MAY 2026"
-   },
-   {
-    "rank": 49,
-    "mark": "64.17",
-    "wind": "",
-    "athlete": "Aleksey KHUDYAKOV",
-    "nat": "RUS",
-    "venue": "Yunost Stadium, Adler, Sochi (RUS)",
-    "date": "20 FEB 2026"
    },
    {
     "rank": 50,
@@ -17323,5 +17323,5 @@
    ]
   }
  ],
- "updated": "2026-11-15 12:10 UTC"
+ "updated": "2026-11-16 09:35 UTC"
 }
