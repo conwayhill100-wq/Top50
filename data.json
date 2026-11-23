@@ -15497,6 +15497,24 @@
    },
    {
     "rank": 15,
+    "mark": "27:25.99",
+    "wind": "",
+    "athlete": "Emmanuel Korir KIPLAGAT",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 16,
+    "mark": "27:26.01",
+    "wind": "",
+    "athlete": "Richard LODUNG",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 17,
     "mark": "27:26.58",
     "wind": "",
     "athlete": "David MULLARKEY",
@@ -15505,7 +15523,16 @@
     "date": "28 MAR 2026"
    },
    {
-    "rank": 16,
+    "rank": 18,
+    "mark": "27:29.37",
+    "wind": "",
+    "athlete": "Festus KIMORWA",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 19,
     "mark": "27:29.83",
     "wind": "",
     "athlete": "Elsingi KIPRUTO",
@@ -15514,7 +15541,52 @@
     "date": "16 APR 2026"
    },
    {
-    "rank": 17,
+    "rank": 20,
+    "mark": "27:29.84",
+    "wind": "",
+    "athlete": "Kiprono SITONIK",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 21,
+    "mark": "27:30.21",
+    "wind": "",
+    "athlete": "Anthony KIBE",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 22,
+    "mark": "27:30.33",
+    "wind": "",
+    "athlete": "Yosihiro KUSUOKA",
+    "nat": "JPN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 23,
+    "mark": "27:30.46",
+    "wind": "",
+    "athlete": "Dan KIPLANGAT",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 24,
+    "mark": "27:30.50",
+    "wind": "",
+    "athlete": "Isaac Kibet NDIEMA",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 25,
     "mark": "27:30.51",
     "wind": "",
     "athlete": "Habtom SAMUEL",
@@ -15523,16 +15595,43 @@
     "date": "03 APR 2026"
    },
    {
-    "rank": 18,
-    "mark": "27:32.33",
+    "rank": 26,
+    "mark": "27:31.05",
     "wind": "",
-    "athlete": "Emmanuel Korir KIPLAGAT",
+    "athlete": "Brian KIPTOO",
     "nat": "KEN",
-    "venue": "Aoba Park Athletic Field, Chitose (JPN)",
-    "date": "05 JUL 2026"
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
    },
    {
-    "rank": 19,
+    "rank": 27,
+    "mark": "27:31.59",
+    "wind": "",
+    "athlete": "Kelvin KIPLAGAT",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 28,
+    "mark": "27:32.19",
+    "wind": "",
+    "athlete": "Dennis MUTUKU",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 29,
+    "mark": "27:33.90",
+    "wind": "",
+    "athlete": "Emmanuel Moi MARU",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 30,
     "mark": "27:34.24",
     "wind": "",
     "athlete": "Richard KIMAYAT",
@@ -15541,7 +15640,25 @@
     "date": "05 JUL 2026"
    },
    {
-    "rank": 20,
+    "rank": 31,
+    "mark": "27:34.29",
+    "wind": "",
+    "athlete": "Evans Keitany KIPTUM",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 32,
+    "mark": "27:34.44",
+    "wind": "",
+    "athlete": "Samuel KIBATHI",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 33,
     "mark": "27:35.04",
     "wind": "",
     "athlete": "Gideon Kipkertich RONO",
@@ -15550,16 +15667,7 @@
     "date": "05 JUL 2026"
    },
    {
-    "rank": 21,
-    "mark": "27:35.59",
-    "wind": "",
-    "athlete": "Emmanuel Moi MARU",
-    "nat": "KEN",
-    "venue": "Athletic Track, Abashiri (JPN)",
-    "date": "08 JUL 2026"
-   },
-   {
-    "rank": 22,
+    "rank": 34,
     "mark": "27:36.05",
     "wind": "",
     "athlete": "Shadrack RONO",
@@ -15568,25 +15676,16 @@
     "date": "05 JUL 2026"
    },
    {
-    "rank": 23,
-    "mark": "27:37.50",
+    "rank": 35,
+    "mark": "27:36.43",
     "wind": "",
-    "athlete": "Richard LODUNG",
+    "athlete": "Stephen MUTHINI",
     "nat": "KEN",
-    "venue": "Lemon Gas Stadium, Hiratsuka (JPN)",
-    "date": "04 MAY 2026"
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
    },
    {
-    "rank": 24,
-    "mark": "27:38.32",
-    "wind": "",
-    "athlete": "Festus KIMORWA",
-    "nat": "KEN",
-    "venue": "Honjo Athletic Stadium, Kitakyushu (JPN)",
-    "date": "23 MAY 2026"
-   },
-   {
-    "rank": 25,
+    "rank": 36,
     "mark": "27:38.36",
     "wind": "",
     "athlete": "Denis KIPNGETICH",
@@ -15595,25 +15694,7 @@
     "date": "03 APR 2026"
    },
    {
-    "rank": 26,
-    "mark": "27:39.22",
-    "wind": "",
-    "athlete": "Kiprono SITONIK",
-    "nat": "KEN",
-    "venue": "Honjo Athletic Stadium, Kitakyushu (JPN)",
-    "date": "23 MAY 2026"
-   },
-   {
-    "rank": 27,
-    "mark": "27:39.97",
-    "wind": "",
-    "athlete": "Samuel KIBATHI",
-    "nat": "KEN",
-    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
-    "date": "30 MAY 2026"
-   },
-   {
-    "rank": 28,
+    "rank": 37,
     "mark": "27:40.05",
     "wind": "",
     "athlete": "Raphael LONGISA",
@@ -15622,7 +15703,7 @@
     "date": "04 MAY 2026"
    },
    {
-    "rank": 29,
+    "rank": 38,
     "mark": "27:40.41",
     "wind": "",
     "athlete": "Jinichiro KAMEDA",
@@ -15631,7 +15712,7 @@
     "date": "10 MAY 2026"
    },
    {
-    "rank": 30,
+    "rank": 39,
     "mark": "27:40.56",
     "wind": "",
     "athlete": "Rogers KIBET",
@@ -15640,7 +15721,7 @@
     "date": "25 APR 2026"
    },
    {
-    "rank": 31,
+    "rank": 40,
     "mark": "27:40.96",
     "wind": "",
     "athlete": "Mahadi ABDI ALI",
@@ -15649,7 +15730,16 @@
     "date": "28 MAR 2026"
    },
    {
-    "rank": 32,
+    "rank": 41,
+    "mark": "27:40.98",
+    "wind": "",
+    "athlete": "Shunsuke YOSHII",
+    "nat": "JPN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 42,
     "mark": "27:41.33",
     "wind": "",
     "athlete": "Hiromichi NONAKA",
@@ -15658,7 +15748,7 @@
     "date": "08 JUL 2026"
    },
    {
-    "rank": 33,
+    "rank": 43,
     "mark": "27:41.59",
     "wind": "",
     "athlete": "Ernest CHERUIYOT",
@@ -15667,7 +15757,16 @@
     "date": "16 APR 2026"
    },
    {
-    "rank": 34,
+    "rank": 44,
+    "mark": "27:41.81",
+    "wind": "",
+    "athlete": "Brian KIPYEGON",
+    "nat": "KEN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
+   },
+   {
+    "rank": 45,
     "mark": "27:41.97",
     "wind": "",
     "athlete": "Eliud Kahiga MUCHIRI",
@@ -15676,7 +15775,7 @@
     "date": "25 APR 2026"
    },
    {
-    "rank": 35,
+    "rank": 46,
     "mark": "27:42.67",
     "wind": "",
     "athlete": "Dominic Lokinyomo LOBALU",
@@ -15685,16 +15784,16 @@
     "date": "15 AUG 2026"
    },
    {
-    "rank": 36,
-    "mark": "27:42.85",
+    "rank": 47,
+    "mark": "27:42.75",
     "wind": "",
-    "athlete": "Evans Keitany KIPTUM",
-    "nat": "KEN",
-    "venue": "Aoba Park Athletic Field, Chitose (JPN)",
-    "date": "05 JUL 2026"
+    "athlete": "Shunya KIKUCHI",
+    "nat": "JPN",
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
    },
    {
-    "rank": 37,
+    "rank": 48,
     "mark": "27:43.16",
     "wind": "",
     "athlete": "Kevin Kiprop SOGET",
@@ -15703,7 +15802,7 @@
     "date": "15 JUN 2026"
    },
    {
-    "rank": 38,
+    "rank": 49,
     "mark": "27:43.23",
     "wind": "",
     "athlete": "Yemaneberhan CRIPPA",
@@ -15712,112 +15811,13 @@
     "date": "13 JUN 2026"
    },
    {
-    "rank": 39,
-    "mark": "27:44.45",
-    "wind": "",
-    "athlete": "Yuto MIYAKE",
-    "nat": "JPN",
-    "venue": "Athletic Track, Abashiri (JPN)",
-    "date": "08 JUL 2026"
-   },
-   {
-    "rank": 40,
-    "mark": "27:44.72",
-    "wind": "",
-    "athlete": "Simon BEDARD",
-    "nat": "FRA",
-    "venue": "JSerra Catholic HS, San Juan Capistrano, CA (USA)",
-    "date": "28 MAR 2026"
-   },
-   {
-    "rank": 41,
-    "mark": "27:44.72",
-    "wind": "",
-    "athlete": "Kelvin KIPLAGAT",
-    "nat": "KEN",
-    "venue": "Hoshigadai Stadium, Tajimi (JPN)",
-    "date": "03 OCT 2026"
-   },
-   {
-    "rank": 42,
-    "mark": "27:45.35",
-    "wind": "",
-    "athlete": "Brian KIPTOO",
-    "nat": "KEN",
-    "venue": "Kanseki Stadium, Utsunomiya (JPN)",
-    "date": "21 MAY 2026"
-   },
-   {
-    "rank": 43,
-    "mark": "27:47.53",
-    "wind": "",
-    "athlete": "Wenjie WANG",
-    "nat": "CHN",
-    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
-    "date": "30 MAY 2026"
-   },
-   {
-    "rank": 44,
-    "mark": "27:48.06",
-    "wind": "",
-    "athlete": "Evans KURUI",
-    "nat": "KEN",
-    "venue": "Cobb Track and Angell Field, Palo Alto, CA (USA)",
-    "date": "03 APR 2026"
-   },
-   {
-    "rank": 45,
-    "mark": "27:49.86",
-    "wind": "",
-    "athlete": "James Mwanzia MUTUKU",
-    "nat": "KEN",
-    "venue": "Hoshigadai Stadium, Tajimi (JPN)",
-    "date": "03 OCT 2026"
-   },
-   {
-    "rank": 46,
-    "mark": "27:50.05",
-    "wind": "",
-    "athlete": "Iliass AOUANI",
-    "nat": "ITA",
-    "venue": "Centro Sportivo A. Montagna, La Spezia (ITA)",
-    "date": "23 MAY 2026"
-   },
-   {
-    "rank": 47,
-    "mark": "27:50.61",
-    "wind": "",
-    "athlete": "Takato SUZUKI",
-    "nat": "JPN",
-    "venue": "Aoba Park Athletic Field, Chitose (JPN)",
-    "date": "05 JUL 2026"
-   },
-   {
-    "rank": 48,
-    "mark": "27:50.98",
-    "wind": "",
-    "athlete": "Edwin KURGAT",
-    "nat": "KEN",
-    "venue": "Scotstoun Stadium, Glasgow (GBR)",
-    "date": "28 JUL 2026"
-   },
-   {
-    "rank": 49,
-    "mark": "27:51.09",
-    "wind": "",
-    "athlete": "Amos Kipkemoi BETT",
-    "nat": "KEN",
-    "venue": "Kanseki Stadium, Utsunomiya (JPN)",
-    "date": "21 MAY 2026"
-   },
-   {
     "rank": 50,
-    "mark": "27:51.82",
+    "mark": "27:43.63",
     "wind": "",
-    "athlete": "Antipas Kibet KANDIE",
+    "athlete": "Kibet MANGATA",
     "nat": "KEN",
-    "venue": "Aoba Park Athletic Field, Chitose (JPN)",
-    "date": "05 JUL 2026"
+    "venue": "NITTAIDAI Athletic Stadium, Yokohama (JPN)",
+    "date": "21 NOV 2026"
    }
   ],
   "women|10,000m": [
@@ -17323,5 +17323,5 @@
    ]
   }
  ],
- "updated": "2026-11-22 08:09 UTC"
+ "updated": "2026-11-23 08:31 UTC"
 }
